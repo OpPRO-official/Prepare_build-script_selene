@@ -30,8 +30,8 @@ elif [ -d "vendor/blaze" ]; then
 	echo "blaze folder found! Use on configs blaze prefix"
 	NameSpace_old="blaze"
 
-elif [ -d "vendor/nad" ]; then
-	echo "nad folder found! Use on configs nad prefix"
+elif [ -d "vendor/nusantara" ]; then
+	echo "nusantara folder found! Use on configs nusantara prefix"
 	NameSpace_old="nad"
 
 elif [ -d "vendor/evolution" ]; then
