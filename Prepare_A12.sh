@@ -150,7 +150,7 @@ if test -f "frameworks/opt/net/ims/src/java/com/android/ims/ImsServiceBase.java"
 	echo "VoLTE patch don't need, nice!"
 
 else
-  echo "Ah, shit, need VoLTE patch!"
+  echo "need VoLTE patch!"
   rm -rf frameworks/opt/telephony/src/java/com/android/internal/telephony/metrics/TelephonyMetrics.java
   sleep 1
   rm -rf frameworks/opt/net/ims/src/java/com/android/ims/ImsManager.java
