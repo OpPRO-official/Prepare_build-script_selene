@@ -151,6 +151,10 @@ if test -f "frameworks/opt/net/ims/src/java/com/android/ims/ImsServiceBase.java"
 
 else
   echo "need VoLTE patch!"
+  wget https://raw.githubusercontent.com/OpPRO-official/Prepare_build-script_selene/Twelve/ImsManager.java
+  wget https://raw.githubusercontent.com/OpPRO-official/Prepare_build-script_selene/Twelve/ImsServiceBase.java
+  wget https://raw.githubusercontent.com/OpPRO-official/Prepare_build-script_selene/Twelve/TelephonyMetrics.java
+  
   rm -rf frameworks/opt/telephony/src/java/com/android/internal/telephony/metrics/TelephonyMetrics.java
   sleep 1
   rm -rf frameworks/opt/net/ims/src/java/com/android/ims/ImsManager.java
